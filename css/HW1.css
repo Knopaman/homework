@@ -1,11 +1,10 @@
 body{
     background-color: #F3F3F5;
-    width: 1024px;
-}
+    }
 .container {
     width: 500px;
-    margin-left: 262px;
     padding-bottom: 282px;
+    margin: 0 auto;
 }
 .header {
     color: #010101;
