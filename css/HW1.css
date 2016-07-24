@@ -4,7 +4,7 @@ body{
 .container {
     width: 500px;
     margin-left: 264px;
-    padding-bottom: 287px;
+    padding-bottom: 284px;
 }
 .header {
     color: #010101;
@@ -39,16 +39,17 @@ body{
     background-color: #1f1f1f;
     margin: 20px auto;
 }
-.list, .number, .link {
-    font-family: Myriad Pro sans-serif;
-    font-size: 14px;
-}
 .wishes,.cont_fb,.vk{
     font-family: Myriad Pro sans-serif;
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 25px;
 }
+.list, .number, .link, .fb {
+    font-family: Myriad Pro sans-serif;
+    font-size: 14px;
+}
+
 .wishes{
     color: #1f1f1f;
 }
@@ -58,6 +59,16 @@ body{
 .vk {
     color: #1f1f1f;
 }
+.number, .fb {
+    color: #3a3a3a;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 36px;
+}
+.number {
+    margin-top: 5px;
+}
+
 .list {
     list-style-type: disc;
     color: #3b3b3b;
@@ -65,13 +76,6 @@ body{
     line-height: 18px;
     margin-left: 36px;
    }
-.number {
-    color: #3a3a3a;
-    font-weight: 400;
-    margin-bottom: 20px;
-    margin-left: 36px;
-    margin-top: 5px;
-}
 .link{
     color: rgb(0, 86, 211);
     font-weight: 400;
@@ -79,5 +83,4 @@ body{
     font-style: italic;
     margin-left: 36px;
 }
-
 
