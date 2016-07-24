@@ -39,7 +39,11 @@ body{
     background-color: #1f1f1f;
     margin: 20px auto;
 }
-.bold_text {
+.list, .number, .link {
+    font-family: Myriad Pro sans-serif;
+    font-size: 14px;
+}
+.wishes,.cont_fb,.vk{
     font-family: Myriad Pro sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -57,16 +61,12 @@ body{
 .list {
     list-style-type: disc;
     color: #3b3b3b;
-    font-size: 14px;
     font-weight: 400;
     line-height: 18px;
     margin-left: 36px;
-
-}
+   }
 .number {
-    font-family: Myriad Pro sans-serif;
     color: #3a3a3a;
-    font-size: 14px;
     font-weight: 400;
     margin-bottom: 20px;
     margin-left: 36px;
@@ -74,7 +74,6 @@ body{
 }
 .link{
     color: rgb(0, 86, 211);
-    font-size: 14px;
     font-weight: 400;
     text-decoration: underline;
     font-style: italic;
