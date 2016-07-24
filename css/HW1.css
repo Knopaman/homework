@@ -1,17 +1,15 @@
-body {
-    height: 1024px;
-    width: 1024px;
-    position: absolute;
+body{
+    background-color: #F3F3F5;
 }
 .container {
     width: 500px;
-    margin: 0 auto;
-    position: relative;
+    margin-left: 264px;
+    padding-bottom: 287px;
 }
 .header {
     color: #010101;
     font-family: Arial sans-serif;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 700;
     text-align: center;
     margin-top: 50px;
@@ -41,19 +39,27 @@ body {
     background-color: #1f1f1f;
     margin: 20px auto;
 }
-.wishes {
+.bold_text {
     font-family: Myriad Pro sans-serif;
-    color: #1f1f1f;
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 28px;
+    margin-bottom: 25px;
+}
+.wishes{
+    color: #1f1f1f;
+}
+.cont_fb{
+    color: #3a3a3a;
+}
+.vk {
+    color: #1f1f1f;
 }
 .list {
     list-style-type: disc;
     color: #3b3b3b;
     font-size: 14px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 18px;
     margin-left: 36px;
 
 }
@@ -62,11 +68,12 @@ body {
     color: #3a3a3a;
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-left: 36px;
+    margin-top: 5px;
 }
 .link{
-    color: blue;
+    color: rgb(0, 86, 211);
     font-size: 14px;
     font-weight: 400;
     text-decoration: underline;
